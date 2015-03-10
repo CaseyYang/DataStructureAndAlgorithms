@@ -6,15 +6,15 @@ class Simple {
 public:
 	Simple(int param = 0) {
 		number = param;
-		std::cout << "Simple: " << number << std::endl;
+		cout << "Simple: " << number << std::endl;
 	}
 	~Simple() {
-		std::cout << "~Simple: " << number << std::endl;
+		cout << "~Simple: " << number << std::endl;
 	}
 	void PrintSomething() {
-		std::cout << "PrintSomething: " << info_extend.c_str() << std::endl;
+		cout << "PrintSomething: " << info_extend.c_str() << std::endl;
 	}
-	std::string info_extend;
+	string info_extend;
 	int number;
 };
 //C++标准中的智能指针类auto_ptr
